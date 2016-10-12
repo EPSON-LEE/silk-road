@@ -1,0 +1,74 @@
+
+.login-box{
+  position: absolute;
+  background-color: rgba(238, 238, 238, 1);
+  left: 50%;
+  top:50%;
+  height: 370px;
+  width: 354px;
+  margin-left: -177px;
+  margin-top:-185px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border:1px solid gray;
+  display: none;
+}
+.login-box-center{
+  width: 354px;
+  margin-left: 90px;
+  margin-top: 100px;
+}
+.login-box .login-box-center #username,#password{
+  /*字体*/
+  font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: #666666;
+
+  display: inline-block;
+  width: 180px;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+.login-box .login-box-center input{
+  height: 30px;
+  width: 263px;
+  margin-left: -40px;
+  border-radius: 5px; 
+}
+.login-box .bar{
+  position: absolute;
+  background-color: #bbcac7;
+  width: 354px;
+  height: 50px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  top:0;
+  left: 0;
+}
+.login-box #login-button{
+  position: absolute;
+  left: 80%;
+  top:3%;
+}
+.login-box #login-button-press{
+  position: absolute;
+  background-color: rgba(0, 204, 255, 1);
+  width: 136px;
+  height: 42px;
+  left: 50%;
+  top:80%;
+  margin-left: -68px;
+}
+.login-box #login-button-press{
+  text-align: center;
+  line-height: 42px;
+  font-family: 'Stencil Bold', 'Stencil Normal', 'Stencil';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  color: #FFFFFF;
+  border:1px solid gray;
+  border-radius: 5px;
+}

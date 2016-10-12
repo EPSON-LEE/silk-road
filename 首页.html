@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>首页</title>
+<link rel="stylesheet" type="text/css" href="./normalize.css">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<link rel="stylesheet" type="text/css" href="./css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="./css/login_box.css">
+<link rel="stylesheet" type="text/css" href="./css/register_box.css">
+<style>
+.swiper-slide{
+  height: 300px;
+  z-index: -10;
+}
+.right-bottom{
+  position: absolute;
+  top: 70%;
+  left: 80%;
+  font-family: '微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
+  font-weight: 700;
+  font-style: normal;
+  color: #003366;
+  text-align: center;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+<!-- 注册窗口 -->
+<div class="register-box" id="register-box">
+  <div class="bar"></div> 
+  <span style="position: absolute;left: 30px;top:10px;font-family: 'Arial Negreta', 'Arial Normal', 'Arial';font-weight: 700;font-size: 30px;color: #666666;">注册</span>
+  <div class="register-box-center">
+    <span id="username">用户名：</span><br>
+    <input type="text"></input><br>
+    <span id="password">密码：</span><br>
+    <input type="password"></input><br>
+    <span id="email">邮箱：</span><br>
+    <input type="text"></input><br>
+    <span id="invite-number">邀请码：</span><br>
+    <input type="text"></input><br>
+  </div>
+  <img src="G:\\lab\\static\\login\\login-button.png" id="register-button"\>
+  <div id="register-button-press">
+    <span><label>注册</label></span>
+  </div>
+</div>
+
+<!-- 登陆窗口弹框 -->
+<div class="login-box" id="login-box">
+  <div class="bar"></div> 
+  <span style="position: absolute;left: 30px;top:10px;font-family: 'Arial Negreta', 'Arial Normal', 'Arial';font-weight: 700;font-size: 30px;color: #666666;">登录</span>
+  <div class="login-box-center">
+    <span id="username">用户名：</span><br>
+    <input type="text"></input><br>
+    <span id="password">密码：</span><br>
+    <input type="password"></input>
+  </div>
+  <img src="G:\\lab\\static\\login\\login-button.png" id="login-button"\>
+  <div id="login-button-press">
+    <span><label>登录</label></span>
+  </div>
+</div>
+<!-- 主体 -->
+<div class="whole">
+  <header>
+    <div class="tips-line">
+      <span><a class="tips-line-font1" href="">欢迎访问</a></span>
+      <span><a class="tips-line-font2" id="source" href="">手机访问</a></span>
+      <div class="tips-line-font-right">
+        <span><a class="tips-line-font3" id="login-box-call"><label>登录</label></a></span>
+        <span><a class="tips-line-font4" id="register-call"><label>注册</label></a></span>
+      </div>
+    </div>
+    <div class="poster">
+      <img class="school-photo" src="G:/lab/static/index/school-photo.png" />
+      <img class="school-name" src="G:/lab/static/index/school-name.png" />
+      <div class="content">
+        <span id="poster-font1">一带一路专题数据库</span><br>
+        <span>professionally for the R&D and all about the Belt and Road</span>
+      </div>
+      <div class="tips-block" id="expect">
+        <span>敬请期待</span>
+    </div>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">首页</a></li>
+      <li><a href="图表.html">图表</a></li>
+      <li><a href="数据.html">数据</a></li>
+      <li><a href="资讯.html">资讯</a></li>
+      <li><a href="系统公告.html">系统公告</a></li>
+    </ul>
+  </nav>
+  <article>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <img class="swiper-slide" src="G:/lab/static/index/poster1.jpg" />
+        <img class="swiper-slide" src="G:/lab/static/index/poster2.jpg" />
+      </div>
+    </div>
+  </article>
+  <div class="message">
+    <section>
+      <div class="radius"><span><a>图表</a></span></div>
+      <div class="box">
+        <span class="box-block">可视化：包含区域分布，纵向、横向特征对比
+        <a class="right-bottom" href="图表.html"> 转到>> </a>
+        </span>
+      </div>
+    </section>
+    <section>
+      <div class="radius"><span><a>数据</a></span></div>
+      <div class="box">
+        <span class="box-block">详情：多样指标，涵盖内容广阔
+         <a class="right-bottom" href="数据.html"> 转到>> </a>
+        </span>
+      </div>
+    </section>
+    <section>
+      <div class="radius"><span><a>资讯</a></span></div>
+      <div class="box">
+        <span class="box-block">简讯：相关研究方向的最新进展，重点研究报告和研究主题内容跟踪信息
+        <a class="right-bottom" href="资讯.html"> 转到>> </a> </span>
+        </span>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="detail">
+      <div class="location">
+        <span>西安邮电大学 计算金融与风险管理研究中心 版权所有</span><br>
+      </div> 
+      <div class="tel">
+        <span>电话：029-88166704</span><br>
+      </div>
+      <div class="address">
+        <span>地址：http://jsjr.xupt.edu.cn</span>
+      </div>
+    </div> 
+  </footer>
+</div>
+
+
+<script src="./js/script.js"></script>
+<script src="./js/swiper.js"></script>
+<script> 
+  var mySwiper = new Swiper('.swiper-container', {
+    autoplay: 2000,//可选选项，自动滑动
+    loop:true, //可选选项，自由衔接
+  })
+</script>
+</body>
+</html>

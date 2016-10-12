@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>资讯</title>
+<link rel="stylesheet" type="text/css" href="./css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="./normalize.css">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<link rel="stylesheet" type="text/css" href="./css/data_style.css">
+<link rel="stylesheet" type="text/css" href="./css/login_box.css">
+<link rel="stylesheet" type="text/css" href="./css/register_box.css">
+<style>
+.swiper-slide{
+  height: 300px;
+}
+
+nav img{
+  float: left;
+  margin-left:-100px;
+  z-index: -10;
+}
+
+th{
+  width: 86px;
+}
+
+</style>
+</head>
+<body>
+<!-- 注册窗口 -->
+<div class="register-box" id="register-box">
+  <div class="bar"></div> 
+  <span style="position: absolute;left: 30px;top:10px;font-family: 'Arial Negreta', 'Arial Normal', 'Arial';font-weight: 700;font-size: 30px;color: #666666;">注册</span>
+  <div class="register-box-center">
+    <span id="username">用户名：</span><br>
+    <input type="text"></input><br>
+    <span id="password">密码：</span><br>
+    <input type="password"></input><br>
+    <span id="email">邮箱：</span><br>
+    <input type="text"></input><br>
+    <span id="invite-number">邀请码：</span><br>
+    <input type="text"></input><br>
+  </div>
+  <img src="G:\\lab\\static\\login\\login-button.png" id="register-button"\>
+  <div id="register-button-press">
+    <span><label>注册</label></span>
+  </div>
+</div>
+<!-- 登陆窗口弹框 -->
+<div class="login-box" id="login-box">
+  <form method="post">
+    <div class="bar"></div> 
+    <span style="position: absolute;left: 30px;top:10px;font-family: 'Arial Negreta', 'Arial Normal', 'Arial';font-weight: 700;font-size: 30px;color: #666666;">登录</span>
+    <div class="login-box-center">
+      <span id="username">用户名：</span><br>
+      <input type="text"></input><br>
+      <span id="password">密码：</span><br>
+      <input type="password"></input>
+    </div>
+    <img src="G:\\lab\\static\\login\\login-button.png" id="login-button"\>
+    <div id="login-button-press">
+      <span><label>登录</label></span>
+    </div>
+  </form>
+</div>
+<!-- 主体 -->
+<div class="whole">
+  <header>
+    <div class="tips-line">
+      <span><a class="tips-line-font1" href="">欢迎访问</a></span>
+      <span><a class="tips-line-font2" id="source" href="">手机访问</a></span>
+      <div class="tips-line-font-right">
+        <span><a class="tips-line-font3" id="login-box-call"><label>登录</label></a></span>
+        <span><a class="tips-line-font4" id="register-call"><label>注册</label></a></span>
+      </div>
+    </div>
+    <div class="poster">
+      <div class="tips-block" id="expect">
+        <span>敬请期待</span>
+      </div>
+      <img class="school-photo" src="G:/lab/static/index/school-photo.png" />
+      <img class="school-name" src="G:/lab/static/index/school-name.png" />
+      <div class="content">
+        <span id="poster-font1">一带一路专题数据库</span><br>
+        <span>professionally for the R&D and all about the Belt and Road</span>
+      </div>
+    </div>
+  </header>
+  <nav>
+    <ul style="z-index: 10;">
+      <li><a href="首页.html"><label>首页</label></a></li>
+      <li><a href="图表.html"><label>图表</label></a></li>
+      <li><a href="数据.html"><label>数据</label></a></li>
+      <li><a href="资讯.html" class="shadow"><label>资讯</label></a></li>
+      <li><a href="系统公告.html"><label>系统公告</label></a></li>
+    </ul>
+  </nav>
+
+  <article>
+  
+  </article>
+
+  <footer>
+    <div class="detail">
+      <div class="location">
+        <span>西安邮电大学 计算金融与风险管理研究中心 版权所有</span><br>
+      </div> 
+      <div class="tel">
+        <span>电话：029-88166704</span><br>
+      </div>
+      <div class="address">
+        <span>地址：http://jsjr.xupt.edu.cn</span>
+      </div>
+    </div> 
+  </footer>
+</div>
+
+
+<script src="./js/script.js"></script>
+<script src="./js/swiper.js"></script>
+<script> 
+  var mySwiper = new Swiper('.swiper-container', {
+    autoplay: 1000,//可选选项，自动滑动
+    loop:true, //可选选项，自由衔接
+  })
+</script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+article{
+  height: 552px;
+
+}
+article .content{
+  width: 950px;
+}
+.list-message{
+  width: 256px;
+  height: 552px;
+  margin-left: 62px;
+  float: left;
+  background-color: #7adb8f;
+}
+.list-message ul{
+  float: right;
+  margin-top: 40px;
+}
+.list-message ul li{
+  list-style: none;
+}
+.list-message ul li select{
+  float: right;
+  width:208px;
+  margin-top:10px;
+}
+.list-message .begin-year{
+  float: left;
+  width: 78px;
+  margin-left: 47px;
+}
+.list-message .last-year{
+  float:right;
+  width: 78px;
+}
+.query{
+  width: 210px;
+  float: right;
+  margin-top: 5px;
+} 
+.submit{
+  margin-top: 50px;
+}
+
+.submit span{
+  float: left;
+  margin-left: 60px;
+  font-family: 'Arial Normal', 'Arial';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  color: #333333;
+}
+.submit #scan-button{
+  float: left;
+  margin-right: 20px;
+}
+.submit #submit-button{
+  margin-left: 45px;
+}
+article .content .list-message img{
+  margin-top: 6px;
+}

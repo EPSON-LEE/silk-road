@@ -1,0 +1,205 @@
+/*header*/
+*{
+  margin: 0;
+  padding: 0;
+}
+.whole{
+   width: 1074px;
+   margin:0 auto;
+}
+.tips-line{
+  height: 27px;
+  background-color: rgb(0, 51, 102);
+}
+.tips-line a{
+  font-weight: bold;
+  color:white;
+  font-size: 13px;
+  text-decoration: none;
+  line-height: 27px;
+  padding: 20px;
+}
+.tips-line .tips-line-font1{
+  margin-left: 120px;
+  padding: 20px;
+}
+.tips-line .tips-line-font-right{
+  float: right;
+  padding: 0 100px 0 60px;
+}
+
+.tips-block{
+  line-height: 84px;
+  margin-left: 300px;
+  width: 150px;
+  height: 84px;
+  display: none;
+  background-color: #003366;
+  z-index: 10;
+}
+.tips-block span{
+  margin-left: 50px;
+  font-weight: bold;
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  z-index: 10;
+}
+
+.poster{
+  background-color: #99cccc;
+  height: 84px;
+  position: relative;
+}
+.poster .school-photo{
+  width: 100px;
+  height: 78px;
+  margin-top: 10px;
+  margin-left: 70px;
+  top: 0;
+  position: absolute;
+}
+.poster .school-name{
+  width: 136px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  display: inline-block;
+  left: 160px;
+  z-index: 0;
+}
+.poster .content{
+  display: inline-block;
+  position: absolute;
+  left:460px;
+  top:20px;
+  color: #0000ff;
+  z-index: 0;
+}
+.poster .content #poster-font1{
+  font-size: 32px;
+  font-family: '华文行楷 Bold', '华文行楷 Regular', '华文行楷';
+  font-style: normal;
+}
+.poster .content #poster-font2{
+  font-family:'Microsoft Himalaya Bold Oblique', 'Microsoft Himalaya Normal', 'Microsoft Himalaya';
+  font-style:oblique;
+}
+/*nav*/
+nav{
+  height: 35px;
+  background-color: #003366;
+}
+nav ul{
+  margin-left: 140px;
+}
+nav ul li{
+  float: left;
+  padding-left: 50px;
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  line-height: 35px;
+  font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+/*article*/
+article{
+  height: 370px;
+  background-color: rgb(153, 204, 204);
+}
+
+/*section*/
+.message{
+  width: 1074px;
+  overflow: hidden;
+}
+section{
+  height: 190px;
+  background-color: rgb(153, 204, 204);
+  float: left;
+  position: relative;
+
+}
+section .box{
+  width: 300px;
+  height: 139px;
+  background-color: rgba(204, 204, 204, 1);
+  margin-left: 58px;
+  top:32px;
+}
+
+section .box span{
+  display: inline-block;
+  font-family: '微软雅黑';
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  width: 280px;
+  height: 34px;
+  margin: 30px 25px 0 20px;
+}
+
+section .radius{
+  position: relative;
+  margin-left: 58px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width:300px;
+  height: 32px;
+  background-color: rgb(0, 51, 102);
+}
+section .radius span{
+  position: absolute;
+  line-height: 32px;
+  left: 10px;
+  font-family: '仿宋 Bold', '仿宋';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+/*footer*/
+footer{
+  height: 225px;
+  background-color: #003366;
+  margin: 0 auto;
+  font-family: '微软雅黑';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: #FFFFFF;
+  clear: both;
+}
+footer .detail .location{
+  width: 300px;
+  margin: 0 auto;
+}
+footer .detail .tel{
+  width: 150px;
+  margin: 0 auto;
+}
+footer .detail .address{
+  width: 180px;
+  margin: 0 auto;
+}
+footer .detail{
+  padding-top: 100px;
+}
+/*设置login-box优先级*/
+.login-box{
+  z-index: 10;
+}
+/*当前选项卡阴影*/
+.shadow{
+  background: url(G:\\lab\\static\\data\\bg.png);
+  display: inline-block;
+  width: 90px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+}
